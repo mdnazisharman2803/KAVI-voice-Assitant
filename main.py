@@ -95,14 +95,7 @@ def func():
                     if type==5:
                         talk("speak keywords seperated by commas ")
                         ctx=take_command()
-                except:
-                    print("Sorry, couldn't register your choise. Please type it instead")
-                    talk("Sorry, couldn't register your choise. Please type it instead")
-                    try:
-                        type = int(input())
-                        if type==5:
-                            talk("speak keywords seperated by commas ")
-                            ctx=take_command()
+               
                     except:
                         type = -1
                         print("not a valid choise")
@@ -113,6 +106,7 @@ def func():
                 else :
                     notdone = task(command.replace(key, ''), summary=True)
             # no for whattsapp?
+            gvhbjhvvh
             elif key == 'whatsapp':
                 notdone = task()
             elif key == 'weather':
